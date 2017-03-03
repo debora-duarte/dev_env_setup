@@ -3,6 +3,10 @@ sudo apt-get install sublime-text
 
 # Config git
 cp .gitconfig ~/.gitconfig
+cp config-PS1.sh ~
+cp git-completion.bash ~
+echo "source ~/config-PS1.sh" >> ~/.bashrc 
+echo "source ~/git-completion.bash" >> ~/.bashrc
 
 # Install lein
 sudo mv lein /usr/bin/lein
