@@ -3,6 +3,10 @@ yaourt -S sublime-text-dev
 
 # Config git
 cp .gitconfig ~/.gitconfig
+cp config-PS1.sh ~
+cp git-completion.bash ~
+echo "source ~/config-PS1.sh" >> ~/.bashrc 
+echo "source ~/git-completion.bash" >> ~/.bashrc
 
 # Install lein
 sudo mv lein /usr/bin/lein
@@ -14,3 +18,5 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 \curl -sSL https://get.rvm.io | bash -s stable
 source /home/debora/.rvm/scripts/rvm
 rvm install ruby
+
+echo "alias ls='ls -GFh'" >> ~/.bashrc
