@@ -1,0 +1,38 @@
+# This is Git's per-user configuration file.
+[user]
+    name = Debora Duarte
+    email = debora.duarte@nubank.com.br
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+
+[alias]
+    st = status
+    ca = commit --amend
+    can = commit --amend --no-edit
+    pf = push -f
+    co = commit -m
+
+[push]
+    default = matching
+
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
