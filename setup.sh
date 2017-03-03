@@ -1,5 +1,10 @@
 # Install sublime
 sudo apt-get install sublime-text
+cp sublime-config ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+
+# Install and config terminator
+sudo apt-get install terminator
+cp terminator-config ~/.config/terminator/config
 
 # Config git
 cp .gitconfig ~/.gitconfig

@@ -1,5 +1,10 @@
 # Install sublime
 yaourt -S sublime-text-dev
+cp sublime-config ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+
+# Install and config terminator
+yaourt terminator
+cp terminator-config ~/.config/terminator/config
 
 # Config git
 cp .gitconfig ~/.gitconfig
@@ -20,4 +25,4 @@ source /home/debora/.rvm/scripts/rvm
 rvm install ruby
 
 echo "alias ls='ls -GFh'" >> ~/.bashrc
-echo "subl=subl3" >> ~/.bashrc
+echo "alias subl=subl3" >> ~/.bashrc
