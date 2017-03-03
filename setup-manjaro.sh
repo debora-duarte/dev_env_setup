@@ -20,3 +20,4 @@ source /home/debora/.rvm/scripts/rvm
 rvm install ruby
 
 echo "alias ls='ls -GFh'" >> ~/.bashrc
+echo "subl=subl3" >> ~/.bashrc
