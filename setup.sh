@@ -27,3 +27,8 @@ rvm install ruby
 
 echo >> ~/.bashrc
 echo "alias ls='ls -GFh'" >> ~/.bashrc
+
+# Config bashrc to backup config files
+echo >> ~/.bashrc
+echo "cp ~/.config/terminator/config ~/dev/dev_env_setup/terminator-config" >> ~/.bashrc
+echo "cp ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings ~/dev/dev_env_setup/sublime-config" >> ~/.bashrc

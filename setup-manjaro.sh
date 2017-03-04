@@ -27,6 +27,12 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 source /home/debora/.rvm/scripts/rvm
 rvm install ruby
 
+# Create some alias
 echo >> ~/.bashrc
 echo "alias ls='ls -GFh'" >> ~/.bashrc
 echo "alias subl=subl3" >> ~/.bashrc
+
+# Config bashrc to backup config files
+echo >> ~/.bashrc
+echo "cp ~/.config/terminator/config ~/dev/dev_env_setup/terminator-config" >> ~/.bashrc
+echo "cp ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings ~/dev/dev_env_setup/sublime-config" >> ~/.bashrc
