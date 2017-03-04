@@ -1,8 +1,6 @@
 [global_config]
   title_inactive_bg_color = "#d3d7cf"
   title_transmit_bg_color = "#75507b"
-[keybindings]
-  close_window = <Primary>q
 [layouts]
   [[default]]
     [[[child1]]]
