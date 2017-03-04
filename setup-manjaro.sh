@@ -6,6 +6,9 @@ cp sublime-config ~/.config/sublime-text-3/Packages/User/Preferences.sublime-set
 yaourt terminator
 cp terminator-config ~/.config/terminator/config
 
+# Install vim
+sudo pacman -S vim
+
 # Config git
 cp .gitconfig ~/.gitconfig
 cp config-PS1.sh ~
@@ -24,5 +27,6 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 source /home/debora/.rvm/scripts/rvm
 rvm install ruby
 
+echo >> ~/.bashrc
 echo "alias ls='ls -GFh'" >> ~/.bashrc
 echo "alias subl=subl3" >> ~/.bashrc

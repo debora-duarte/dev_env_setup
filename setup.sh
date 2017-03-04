@@ -24,3 +24,6 @@ sudo apt-get install curl
 \curl -sSL https://get.rvm.io | bash -s stable
 source /home/debora/.rvm/scripts/rvm
 rvm install ruby
+
+echo >> ~/.bashrc
+echo "alias ls='ls -GFh'" >> ~/.bashrc
