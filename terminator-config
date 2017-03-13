@@ -1,6 +1,8 @@
 [global_config]
+  handle_size = 8
   title_inactive_bg_color = "#d3d7cf"
   title_transmit_bg_color = "#75507b"
+[keybindings]
 [layouts]
   [[default]]
     [[[child1]]]
