@@ -8,10 +8,10 @@ cp terminator-config ~/.config/terminator/config
 
 # Config git
 cp .gitconfig ~/.gitconfig
-cp config-PS1.sh ~
-cp git-completion.bash ~
-echo "source ~/config-PS1.sh" >> ~/.bashrc 
-echo "source ~/git-completion.bash" >> ~/.bashrc
+cp config-PS1.sh ~/.config-PS1.sh
+cp git-completion.bash ~/.git-completion.bash
+echo "source ~/.config-PS1.sh" >> ~/.bashrc
+echo "source ~/.git-completion.bash" >> ~/.bashrc
 
 # Install lein
 sudo mv lein /usr/bin/lein
