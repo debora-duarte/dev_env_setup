@@ -19,6 +19,12 @@ echo "source ~/.config-PS1.sh" >> ~/.bashrc
 echo "source ~/.git-completion.bash" >> ~/.bashrc
 echo
 
+echo "Installs java"
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+echo
+
 echo "Installs lein"
 sudo mv lein /usr/bin/lein
 sudo chmod a+x /usr/bin/lein
