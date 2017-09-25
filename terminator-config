@@ -16,9 +16,9 @@
   [[default]]
     allow_bold = False
     background_darkness = 0.93
+    background_image = None
     background_type = transparent
-    cursor_color = "#aaaaaa"
     font = Liberation Mono 16
     use_system_font = False
   [[default_default]]
-    cursor_color = "#aaaaaa"
+    background_image = None
