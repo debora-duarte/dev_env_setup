@@ -1,5 +1,7 @@
 {
-	"font_size": 15,
+	"auto_complete": true,
+	"default_line_ending": "unix",
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -8,6 +10,7 @@
 	[
 		110
 	],
+	"show_definitions": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true
 }
