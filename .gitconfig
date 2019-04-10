@@ -22,13 +22,13 @@
     status = auto
 
 [color "branch"]
-    current = yellow reversedebora.duarte@nubank.com.br
+    current = yellow reversedebora.duarteas@gmail.com
     local = yellow
     remote = green
 
 [color "diff"]
     meta = yellow bold
-    frag = magenta bold
+    frag = magenta bolddebora.duarte@nubank.com.br
     old = red bold
     new = green bold
 
