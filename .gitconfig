@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
     name = Debora Duarte
-    email = debora.duarte@nubank.com.br
+    email = debora.duarteas@gmail.com
 [core]
     editor = vim
     excludesfile = ~/.gitignore
@@ -22,7 +22,7 @@
     status = auto
 
 [color "branch"]
-    current = yellow reverse
+    current = yellow reversedebora.duarte@nubank.com.br
     local = yellow
     remote = green
 
