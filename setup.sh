@@ -1,28 +1,7 @@
 set -e
 
-echo "Installs sublime"
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo apt install apt-transport-https
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt update
-sudo apt install sublime-text
-cp sublime-config ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
-echo
-
-echo "Configs git"
-cp .gitconfig ~/.gitconfig
-cp config-PS1.sh ~/.config-PS1.sh
-cp git-completion.bash ~/.git-completion.bash
-echo "source ~/.config-PS1.sh" >> ~/.bashrc
-echo "source ~/.git-completion.bash" >> ~/.bashrc
-echo
-
 echo "Installs java"
 sudo apt install openjdk-8-jdk
-echo
-
-echo "Installs lein"
-sudo apt install leiningen
 echo
 
 echo "Installs rvm, ruby, etc"
